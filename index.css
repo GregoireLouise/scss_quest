@@ -1,0 +1,177 @@
+/** Navbar **/
+.navbar{
+  background-color: darkorange;
+  margin: 0px;
+}
+
+.collapse {
+  float: right;
+
+}
+
+.navbar li a:link {
+  color: white;
+}
+.navbar li a:visited {
+  color: white;
+}
+.navbar li a:active {
+  color: white;
+}
+.navbar li a:hover {
+  color: white;
+}
+.nav li+li {
+  border-left: 1px solid white;
+}
+
+/** Font **/
+
+@font-face {
+  font-family: 'partybusiness.ttf';
+  src: url('party-business/partybusiness.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'anicb___.ttf';
+  src: url('aniron/anicb___.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 2vw;
+  color: white;
+}
+p {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 2vw;
+}
+
+h3 {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 5vw;
+}
+h2 {
+  font-family: 'anicb___.ttf', sans-serif;
+  font-size: 2vw;
+  text-align: center;
+}
+h4 {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 4vw;
+  color: white;
+}
+body {
+  background-color: #FAEBD7;
+}
+
+/* SCSS */
+.firstSection, .secondSection, .thirdSection {
+  margin: 5%;
+}
+
+.square {
+  border-style: solid;
+  border-radius: 200px;
+  border-width: 4px;
+  box-shadow: 2px 2px 8px;
+  border-color: orange;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+.title p {
+  width: auto;
+  margin: 3%;
+}
+
+.oneRing {
+  border-style: solid;
+  border-radius: 200px;
+  border-width: 10px;
+  box-shadow: 2px 2px 8px;
+  border-color: yellow;
+  height: 200px;
+  width: 200px;
+}
+
+.oneRingText {
+  margin-top: 7%;
+  margin-left: 5%;
+}
+
+.littleRings1 {
+  border-style: solid;
+  border-radius: 200px;
+  border-width: 1px;
+  box-shadow: 2px 2px 8px;
+  border-color: black;
+  height: 20px;
+  width: 20px;
+  margin-right: -1%;
+}
+
+.littleRings2 {
+  border-style: solid;
+  border-radius: 200px;
+  border-width: 2px;
+  box-shadow: 2px 2px 8px;
+  border-color: black;
+  height: 40px;
+  width: 40px;
+  margin-right: -2%;
+}
+
+.littleRings3 {
+  border-style: solid;
+  border-radius: 200px;
+  border-width: 3px;
+  box-shadow: 2px 2px 8px;
+  border-color: black;
+  height: 60px;
+  width: 60px;
+  margin-right: -3%;
+}
+
+.littleRings4 {
+  border-style: solid;
+  border-radius: 200px;
+  border-width: 4px;
+  box-shadow: 2px 2px 8px;
+  border-color: black;
+  height: 80px;
+  width: 80px;
+  margin-right: -4%;
+}
+
+.littleRings5 {
+  border-style: solid;
+  border-radius: 200px;
+  border-width: 5px;
+  box-shadow: 2px 2px 8px;
+  border-color: black;
+  height: 100px;
+  width: 100px;
+  margin-right: -5%;
+}
+
+.littleRings6 {
+  border-style: solid;
+  border-radius: 200px;
+  border-width: 6px;
+  box-shadow: 2px 2px 8px;
+  border-color: black;
+  height: 120px;
+  width: 120px;
+  margin-right: -6%;
+}
+
+.littleRings1, .littleRings2, .littleRings3, .littleRings3, .littleRings4, .littleRings5, .littleRings6 {
+  position: relative;
+}
